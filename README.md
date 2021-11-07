@@ -44,11 +44,15 @@ Simple picture quiz web app
 ### Images folder structure
 
 All images have to be placed in `/images/{quiz-type}/` and have `*.png` extension (lower-case is needed because of case-sensitive comparison)
-Full path to an image:
+
+Full path to an image: 
 /images/{quiz-type}/{correct answer short label}_{number of an image, starting with 0}.png
+
 Example #1 - for "groups" type quiz the first image with correct answer "w" (Co-workers, in the config above) would have path:
+
 /images/groups/w_0.png
 
 Example #1 - for "types" type quiz the third image with correct answer "h" (Homer, in the config above) would have path:
+
 /images/types/h_2.png
 
