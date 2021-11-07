@@ -1,0 +1,28 @@
+{
+  "quizTypes": ["groups", "types"],
+  "groupsImageCount": 5,
+  "groups": {
+    "f": "Family",
+    "w": "Co-workers",
+    "p": "Pub",
+    "s": "Shcool",
+    "o": "Others"
+  },
+  "typesImageCount": 4,
+  "types": {
+    "b": "Bart",
+    "h": "Homer",
+    "l": "Lisa",
+    "m": "Marge"
+  },
+  "labels": {
+    "types": {
+      "long": "Guess name of the Simpsons Family person on the image",
+      "short": "Name guess"
+    },
+    "groups": {
+      "long": "Guess group of the Simpsons character on the image",
+      "short": "Group guess"
+    }
+  }
+}

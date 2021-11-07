@@ -1,0 +1,14 @@
+{
+    "name": "app-pic-quiz",
+    "description": "Simple Picture quiz",
+    "version": "0.0.1",
+    "private": true,
+    "license": "MIT",
+    "author": "pompomon",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}

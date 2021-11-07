@@ -1,0 +1,73 @@
+/*
+ * Copyright (c) Microsoft Corporation. All rights reserved.
+ * Licensed under the MIT License.
+ */
+
+ @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+  
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+.appContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: column;
+}
+
+.quizType {
+    font-size: 3rem;
+    height: 50%;
+}
+
+.quizScore {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.quizImage {
+    margin: 0 auto;
+    max-height: 60%;
+    max-width: 90%;
+}
+
+.quizOptions {
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    margin-top: 1rem;
+}
+
+.quizOption {
+    border-radius: 1rem;
+    flex: 33%;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    width: 50%;
+}
+
+.quizOptionFail {
+    background: red;
+    color: white;
+    font-weight: 400;
+}
+
+.quizOptionWin {
+    background: darkgreen;
+    color: white;
+    font-weight: bold;
+}
+
+.quizContinue {
+    height: 10%;
+}
